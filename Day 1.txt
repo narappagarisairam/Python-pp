@@ -1,0 +1,75 @@
+Day 1:
+
+
+#print hello world program
+
+print("hello world")  # easy to learn comparatively other language
+
+#Python Indentation
+
+case-1
+if 8>4:
+--- print("five is greater than two")
+case-2
+if 8>2:
+ print("greater number") #atleast one space commonly used 4 spaces
+case-3
+if 8>2:
+ print("greater number") #atleast one space commonly used 4 spaces
+     print("least number")# error because same spaces should leave.
+
+#dynamic typed (no need to mention data type Infront of variables)
+ s=23
+ f="sairam"
+ print(s)
+ print(f)
+# if you need to type of datatype
+ print(type(s))
+
+
+# type casting 
+#byte short float int Boolean long double
+
+#ex:-
+ s=str(3)# it convert into string '3'
+ t=int(4)
+ z=float(5)# it will convert float 4.0
+
+# data types
+
+x = "Hello World"	                          str	
+x = 20	                                          int	
+x = 20.5	                                  float	
+x = 1j	                                          complex	
+x = ["apple", "banana", "cherry"]	          list	
+x = ("apple", "banana", "cherry")	          tuple	
+x = range(6)	                                  range	
+x = {"name" : "John", "age" : 36}	          dict	
+x = {"apple", "banana", "cherry"}	          set	
+x = frozenset({"apple", "banana", "cherry"})	  frozenset	
+x = True	                                 bool	
+x = b"Hello"	                                 bytes	
+
+
+#string 
+
+a="hello world"
+print(a[1])
+
+for i in "banana":  #looping  b a n a n a
+   print(x)
+
+x="narappagari sairam"    # finding length of the string.
+print(len(x))
+
+x="narappagari sairam"  # is used to finding the string
+print("sairam" in x)
+
+#Slicing
+
+b = "sairam narappagari" #ira is the output
+print(b[2:5])
+
+
+
+
