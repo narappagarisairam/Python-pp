@@ -1,0 +1,102 @@
+Day 2:-
+
+String 
+
+# slicing from start 
+
+ a="sairam narappagari"
+ print(a[:5])
+
+# slicing from the end
+
+a="sairam narappagari"
+print(a[3:])
+
+#if want to print between the letters use negative index
+
+a=sairam,narappagari"
+print(a[-5:-1])
+
+#modify the string
+
+ #to uppercase to lowercase
+
+ s="narappagari sairam"
+ print(s.upper())
+
+ # to lower-case
+s="narappagari sairam"
+print(s.lower())
+
+#removing white space
+
+s="sairam narappagari"  #at the biggening and ending of the string
+print(a.strip())
+
+#Replace string
+
+s="narappagari sairam"
+print(s.replace("a","e"))
+
+#split
+
+s="narappagari sairam"
+print(s.slipt(","))
+
+#String Concatenation
+
+f="sairam"
+g="narappagari"
+h=f+g
+print(h)
+
+#add space between the words
+ 
+f="sairam"
+g="narappagari"
+h=f+" "+g
+print(h)
+
+
+#combine strings and numbers by using f-strings or the format() method!
+
+age = 24
+txt = f"My name is sairam, I am {age}"
+print(txt)
+
+#A placeholder can include a modifier to format the value.A modifier is #included by adding a colon :
+
+#A placeholder can contain Python code, like math operations:
+
+txt = f"The price is {20 * 59} dollars"
+print(txt)
+
+#String methods
+
+
+capitalize()	#Converts the first character to upper case
+casefold()	#Converts string into lower case
+center()	#Returns a centered string
+count()	        #the number of times a specified value occurs in a string
+encode()	#Returns an encoded version of the string
+endswith()	#Returns true if the string ends with the specified value
+expandtabs()	#Sets the tab size of the string
+find()	        #Searches the string for a specified value and returns the                    position of where it was found
+format()	#Formats specified values in a string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
